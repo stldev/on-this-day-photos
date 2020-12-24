@@ -1,0 +1,33 @@
+{
+  "persons": [
+    {
+      "name": "PERSON_A",
+      "link": "LINK_TO_PUT_IN_EMAIL_BODY",
+      "email": "EMAIL_TO_SEND_TO",
+      "srcPath": "SOURCE_OF_ALL_IMAGES_TO_SEARCH_THROUGH"
+    },
+    {
+      "name": "PERSON_B",
+      "link": "LINK_TO_PUT_IN_EMAIL_BODY",
+      "email": "EMAIL_TO_SEND_TO",
+      "srcPath": "SOURCE_OF_ALL_IMAGES_TO_SEARCH_THROUGH"
+    }
+  ],
+  "extensions": [
+    ".jpg",
+    ".jpeg",
+    ".mov",
+    ".mp4",
+    ".3gp"
+  ],
+  "outputPathRoot": "DESTINATION_TO_COPY_PHOTOS_ON_THIS_DAY",
+  "email": {
+    "admin": "SOME_EMAIL_WHEN_PROBLEM",
+    "from": "EMAIL_SENDER_ADDRESS",
+    "user": "USER_NAME",
+    "pass": "PASSWORD",
+    "subject": "Photos of the day",
+    "client": "smtp.gmail.com",
+    "port": 587
+  }
+}
