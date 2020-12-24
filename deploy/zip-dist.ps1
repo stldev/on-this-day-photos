@@ -1,0 +1,1 @@
+  Compress-Archive -Force -Path .\src -DestinationPath .\deploy\on-this-day.zip

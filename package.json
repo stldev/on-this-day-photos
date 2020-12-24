@@ -1,0 +1,21 @@
+{
+  "name": "on-this-day-photos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-deploy": "powershell.exe ./deploy/deploy.ps1",
+    "zip": "powershell.exe ./deploy/zip-dist.ps1",
+    "publish-local": "npm run zip && npm run server-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stldev/on-this-day-photos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stldev/on-this-day-photos/issues"
+  },
+  "homepage": "https://github.com/stldev/on-this-day-photos#readme"
+}
